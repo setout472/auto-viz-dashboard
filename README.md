@@ -30,13 +30,9 @@ streamlit run app.py
 python -m pytest -q
 ```
 
-## 部署与作品展示
+## 部署
 
-把本目录作为独立仓库推送到 GitHub，然后在支持 Streamlit 的托管服务中连接仓库，入口设为 `app.py`。依赖从 `requirements.txt` 安装。请在获得真实地址后把下面的占位说明替换为链接：
-
-- 在线演示：尚未部署
-- 源码仓库：https://github.com/setout472/auto-viz-dashboard
-- 界面截图：部署或本地运行后截图补充
+可在支持 Streamlit 的托管服务中连接本仓库，入口设为 `app.py`；依赖从 `requirements.txt` 安装。
 
 本项目聚焦自动化探索，不等同于业务结论或因果分析；首次数据类型判断、异常值和 AI 文字都应由分析者复核。后续可添加电商业务指标、字段类型手动修正与报表导出。
 
